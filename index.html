@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MiniWiki</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="col-xs-12 text-center">
+          <h1><i>World is always amazing</i></h1>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="text-center col-12">
+            <input type="text" id="search" placeholder="Anything you want" />
+          </div>
+        </div>
+        <div class="button-control">
+          <button class="btn btn-primary" id="search-button">Search</button>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+            <button class="btn btn-secondary">I feel lucky <img alt="I feel lucky" src="static/Hearts_Clover.png" />
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <hr />
+    <div class="container" id="items">
+    </div>
+
+    <footer class="container">
+      <div class="text-center"><strong>Created by <a href="https://www.linkedin.com/in/ziqing-wang-34549537/"><i>Ziqing</i></strong></a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="wiki.js"></script>
+  </body>
+
+</html>
